@@ -1,0 +1,204 @@
+.main {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 90px 0px 90px 0;
+    background-color: rgb(252, 252, 252);
+  }
+  
+  .sub-main {
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    width: 35%;
+    filter: drop-shadow(0 0 1.75rem crimson);
+    padding-top: 30px;
+    border-radius: 60px;
+    background-color: white;
+  }
+  
+  .imgs {
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .container-image {
+    background-color: rgb(223, 221, 221);
+    border-radius: 150px;
+    align-items: center;
+    display: flex;
+    height: 115px;
+    width: 115px;
+  }
+  
+  .profile {
+    height: 130px;
+    width: 130px;
+    border-radius: 130px;
+  }
+  
+  .LHeader {
+    text-align: center;
+  }
+  
+  .email {
+    height: 25px;
+    width: 35px;
+    position: absolute;
+    padding: 15px 0 0 15px;
+    border: none;
+    outline: none;
+  }
+  
+  .fill {
+    padding-left: 70px;
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+    border-radius: 60px;
+    box-shadow: inset 0px 0px 25px 0px #888;
+  }
+  
+  .second-input {
+    padding-top: 20px;
+  }
+  
+  .btn {
+    width: 260px;
+    height: 50px;
+    border-radius: 60px;
+    background-color: rgb(241, 72, 6);
+    color: white;
+    box-shadow: inset 0px 0px 25px 0px rgb(14, 14, 15);
+    font-size: 25px;
+    border: none;
+  }
+  
+  .login-btn {
+    padding-top: 20px;
+  }
+  
+  .reg-link {
+    padding-top: 10px;
+  }
+  
+  .mail-id {
+    padding-top: 20px;
+  }
+  
+  .inline-container {
+    display: inline-flex;
+    align-items: center;
+  }
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 5px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  .details{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 80px;
+  }
+  .card-actions{
+    border: 1px solid #490909;
+    margin: auto;
+    padding: 7px 35px;
+    background-color: aqua;
+    border-radius: 5px;
+    color: black;
+    font-size: 15px;
+  }
+  form{
+    font-size: 25px;
+    margin: auto;
+    filter: drop-shadow(0 0 1.75rem crimson);
+    border-radius: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+  }
+  .frm{
+    width: 30%;
+    margin: auto;
+    margin-top: 90px;
+  }
+  .inp{
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-right: 50px;
+  }
+  .car-details-container{
+  width: 100%;
+  margin: auto;
+  }
+  .btnlogout {
+    background-color: #ecb2cf;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 12px 30px;
+    padding: 12px;
+    cursor: pointer;
+  }
+  .btnlogout:hover{
+    width: 120px;
+    background-color: rgb(149, 235, 118);
+  }
+  #navbar{
+    width: 100%;
+    display: flex;
+    background-color: #b682df;
+    justify-content: space-between;
+    color: rgb(220, 217, 234);
+    font-size: 22px;
+    /* filter: drop-shadow(30px 10px 4px #4444dd); */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .love{
+    display: flex;
+  }
+  .love>img{
+    margin: 8px 8px 0px 0px;
+    margin-left: 20px;
+  }
+  .love>a{
+    margin-left: 20px;
+    text-decoration: none;
+    margin-top: 19px;
+    color: white;
+  }
+  .funly{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: blue;
+  }
+  #rgn{
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 20px;
+  }
